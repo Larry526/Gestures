@@ -12,6 +12,7 @@
 		05A151341FB4D76D00937116 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05A151331FB4D76D00937116 /* Assets.xcassets */; };
 		05A151371FB4D76D00937116 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05A151351FB4D76D00937116 /* LaunchScreen.storyboard */; };
 		05A1513A1FB4D76D00937116 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A151391FB4D76D00937116 /* main.m */; };
+		05A151421FB4DA9500937116 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05A151411FB4DA9500937116 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		05A151361FB4D76D00937116 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05A151381FB4D76D00937116 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05A151391FB4D76D00937116 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05A151411FB4DA9500937116 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +41,7 @@
 		05A1511E1FB4D76D00937116 = {
 			isa = PBXGroup;
 			children = (
+				05A151411FB4DA9500937116 /* Default-568h@2x.png */,
 				05A151291FB4D76D00937116 /* Gestures */,
 				05A151281FB4D76D00937116 /* Products */,
 			);
@@ -56,12 +59,20 @@
 			isa = PBXGroup;
 			children = (
 				05A151301FB4D76D00937116 /* Main.storyboard */,
+				05A151441FB4DC6800937116 /* Supporting Files */,
 				05A151401FB4D7F000937116 /* Supporting */,
 			);
 			path = Gestures;
 			sourceTree = "<group>";
 		};
 		05A151401FB4D7F000937116 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		05A151441FB4DC6800937116 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				05A151391FB4D76D00937116 /* main.m */,
@@ -71,7 +82,7 @@
 				05A151351FB4D76D00937116 /* LaunchScreen.storyboard */,
 				05A151381FB4D76D00937116 /* Info.plist */,
 			);
-			path = Supporting;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				05A151371FB4D76D00937116 /* LaunchScreen.storyboard in Resources */,
+				05A151421FB4DA9500937116 /* Default-568h@2x.png in Resources */,
 				05A151341FB4D76D00937116 /* Assets.xcassets in Resources */,
 				05A151321FB4D76D00937116 /* Main.storyboard in Resources */,
 			);
