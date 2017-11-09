@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		05A1512C1FB4D76D00937116 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A1512B1FB4D76D00937116 /* AppDelegate.m */; };
-		05A1512F1FB4D76D00937116 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A1512E1FB4D76D00937116 /* ViewController.m */; };
 		05A151321FB4D76D00937116 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05A151301FB4D76D00937116 /* Main.storyboard */; };
 		05A151341FB4D76D00937116 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05A151331FB4D76D00937116 /* Assets.xcassets */; };
 		05A151371FB4D76D00937116 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05A151351FB4D76D00937116 /* LaunchScreen.storyboard */; };
@@ -19,8 +18,6 @@
 		05A151271FB4D76D00937116 /* Gestures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gestures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05A1512A1FB4D76D00937116 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		05A1512B1FB4D76D00937116 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		05A1512D1FB4D76D00937116 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		05A1512E1FB4D76D00937116 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		05A151311FB4D76D00937116 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		05A151331FB4D76D00937116 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05A151361FB4D76D00937116 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,17 +55,23 @@
 		05A151291FB4D76D00937116 /* Gestures */ = {
 			isa = PBXGroup;
 			children = (
+				05A151301FB4D76D00937116 /* Main.storyboard */,
+				05A151401FB4D7F000937116 /* Supporting */,
+			);
+			path = Gestures;
+			sourceTree = "<group>";
+		};
+		05A151401FB4D7F000937116 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				05A151391FB4D76D00937116 /* main.m */,
 				05A1512A1FB4D76D00937116 /* AppDelegate.h */,
 				05A1512B1FB4D76D00937116 /* AppDelegate.m */,
-				05A1512D1FB4D76D00937116 /* ViewController.h */,
-				05A1512E1FB4D76D00937116 /* ViewController.m */,
-				05A151301FB4D76D00937116 /* Main.storyboard */,
 				05A151331FB4D76D00937116 /* Assets.xcassets */,
 				05A151351FB4D76D00937116 /* LaunchScreen.storyboard */,
 				05A151381FB4D76D00937116 /* Info.plist */,
-				05A151391FB4D76D00937116 /* main.m */,
 			);
-			path = Gestures;
+			path = Supporting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +145,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05A1512F1FB4D76D00937116 /* ViewController.m in Sources */,
 				05A1513A1FB4D76D00937116 /* main.m in Sources */,
 				05A1512C1FB4D76D00937116 /* AppDelegate.m in Sources */,
 			);
