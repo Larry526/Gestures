@@ -13,6 +13,9 @@
 		05A151371FB4D76D00937116 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05A151351FB4D76D00937116 /* LaunchScreen.storyboard */; };
 		05A1513A1FB4D76D00937116 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A151391FB4D76D00937116 /* main.m */; };
 		05A151421FB4DA9500937116 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05A151411FB4DA9500937116 /* Default-568h@2x.png */; };
+		05A151471FB4DDC600937116 /* PanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A151461FB4DDC600937116 /* PanViewController.m */; };
+		05A1514A1FB4DDE100937116 /* TapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A151491FB4DDE100937116 /* TapViewController.m */; };
+		05A1514D1FB4EAF200937116 /* PinchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A1514C1FB4EAF200937116 /* PinchViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,12 @@
 		05A151381FB4D76D00937116 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05A151391FB4D76D00937116 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		05A151411FB4DA9500937116 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		05A151451FB4DDC600937116 /* PanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PanViewController.h; sourceTree = "<group>"; };
+		05A151461FB4DDC600937116 /* PanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanViewController.m; sourceTree = "<group>"; };
+		05A151481FB4DDE100937116 /* TapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapViewController.h; sourceTree = "<group>"; };
+		05A151491FB4DDE100937116 /* TapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapViewController.m; sourceTree = "<group>"; };
+		05A1514B1FB4EAF200937116 /* PinchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinchViewController.h; sourceTree = "<group>"; };
+		05A1514C1FB4EAF200937116 /* PinchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinchViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +68,12 @@
 			isa = PBXGroup;
 			children = (
 				05A151301FB4D76D00937116 /* Main.storyboard */,
+				05A1514B1FB4EAF200937116 /* PinchViewController.h */,
+				05A1514C1FB4EAF200937116 /* PinchViewController.m */,
+				05A151481FB4DDE100937116 /* TapViewController.h */,
+				05A151491FB4DDE100937116 /* TapViewController.m */,
+				05A151451FB4DDC600937116 /* PanViewController.h */,
+				05A151461FB4DDC600937116 /* PanViewController.m */,
 				05A151441FB4DC6800937116 /* Supporting Files */,
 				05A151401FB4D7F000937116 /* Supporting */,
 			);
@@ -157,7 +172,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05A151471FB4DDC600937116 /* PanViewController.m in Sources */,
 				05A1513A1FB4D76D00937116 /* main.m in Sources */,
+				05A1514D1FB4EAF200937116 /* PinchViewController.m in Sources */,
+				05A1514A1FB4DDE100937116 /* TapViewController.m in Sources */,
 				05A1512C1FB4D76D00937116 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
