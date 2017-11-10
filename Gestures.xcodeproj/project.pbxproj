@@ -16,6 +16,7 @@
 		05A151471FB4DDC600937116 /* PanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A151461FB4DDC600937116 /* PanViewController.m */; };
 		05A1514A1FB4DDE100937116 /* TapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A151491FB4DDE100937116 /* TapViewController.m */; };
 		05A1514D1FB4EAF200937116 /* PinchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A1514C1FB4EAF200937116 /* PinchViewController.m */; };
+		05A151501FB51C2D00937116 /* SwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A1514F1FB51C2D00937116 /* SwipeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,8 @@
 		05A151491FB4DDE100937116 /* TapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapViewController.m; sourceTree = "<group>"; };
 		05A1514B1FB4EAF200937116 /* PinchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinchViewController.h; sourceTree = "<group>"; };
 		05A1514C1FB4EAF200937116 /* PinchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinchViewController.m; sourceTree = "<group>"; };
+		05A1514E1FB51C2D00937116 /* SwipeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwipeViewController.h; sourceTree = "<group>"; };
+		05A1514F1FB51C2D00937116 /* SwipeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 			isa = PBXGroup;
 			children = (
 				05A151301FB4D76D00937116 /* Main.storyboard */,
+				05A1514E1FB51C2D00937116 /* SwipeViewController.h */,
+				05A1514F1FB51C2D00937116 /* SwipeViewController.m */,
 				05A1514B1FB4EAF200937116 /* PinchViewController.h */,
 				05A1514C1FB4EAF200937116 /* PinchViewController.m */,
 				05A151481FB4DDE100937116 /* TapViewController.h */,
@@ -175,6 +180,7 @@
 				05A151471FB4DDC600937116 /* PanViewController.m in Sources */,
 				05A1513A1FB4D76D00937116 /* main.m in Sources */,
 				05A1514D1FB4EAF200937116 /* PinchViewController.m in Sources */,
+				05A151501FB51C2D00937116 /* SwipeViewController.m in Sources */,
 				05A1514A1FB4DDE100937116 /* TapViewController.m in Sources */,
 				05A1512C1FB4D76D00937116 /* AppDelegate.m in Sources */,
 			);
